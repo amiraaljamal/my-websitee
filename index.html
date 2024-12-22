@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع المطعم</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- رأس الصفحة -->
+    <header>
+        <div class="container">
+            <h1>the taste of happiness</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">الصفحة الرئيسية</a></li>
+                    <li><a href="#menu">menu </a></li>
+                    <li><a href="#order">طلب الطعام</a></li>
+                    <li><a href="#contact">اتصل بنا</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- الصفحة الرئيسية -->
+    <section id="home" class="intro">
+        <div class="container">
+      <h2>مرحباً بك!</h2>
+            <p>نحن نقدم لك أشهى الحلويات المعدة بأعلى معايير الجودة والنكهة.</p>
+            <p>لمذاق يرفع هرمون السعادة</p>
+        </div>
+    </section>
+
+    <!-- معرض الصور -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>الحلويات </h2>
+            <div class="image-gallery">
+                <img src="images/1iimage.jpg" alt="هريسة ">
+                <img src="images/2image.jpg" alt="صفوف">
+                <img src="images/3image.jpg" alt="رز بحليب">
+                <img src="images/4image.jpg" alt="تيرامسو">
+                <img src="images/5image.jpg" alt="crepe">
+                <img src="images/6imag.jpg" alt="panceke">
+        <img src="images/7image.jpg" alt="cinnamon roll">
+            </div>
+        </div>
+    </section>
+
+    <!-- قائمة الطعام -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2>menu items </h2>
+            <div class="menu-item">
+                <img src="images/1iimage.jpg" alt="هريسة" class="food-image">
+                <h3>هريسة</h3>
+                <p>5 pieces</p>
+                <p class="price">سعر:$4</p>
+            </div>
+            <div class="menu-item">
+                <img src="images/2image.jpg" alt="صفوف">
+            <h3>صفوف</h3>
+                <p>5 pieces</p>
+                <p class="price">سعر:$4</p>
+        </div>
+        <div class="menu-item">
+            <img src="images/3image.jpg" alt="رز بحليب">
+            <h3>رز بحليب</h3>
+            <p class="price">سعر:$1</p>
+    </div>
+    <div class="menu-item">
+        <img src="images/4image.jpg" alt="تيرامسو">
+        <h3>تيرامسو</h3>
+        <p class="price">سعر:$3</p></div>\
+
+        <div class="menu-item">
+            <img src="images/5image.jpg" alt="crepe">
+            <h3>كريب</h3>
+            <p class="price">سعر:$4</p></div>
+
+            <div class="menu-item">
+                <img src="images/6imag.jpg" alt="panceke">
+                <h3>بان كيك</h3>
+                <p class="price">سعر:$4</p></div>
+                <div class="menu-item">
+                    <img src="images/7image.jpg" alt="cinnamon roll">
+                    <h3>سينامون رول</h3>
+                <p>1piece</p>
+                    <p class="price">سعر:$1</p>
+
+
+
+    </section>
+    <!-- نموذج طلب الطعام -->
+    <section id="order" class="order">
+        <div class="container">
+            <h2>اطلب الآن!</h2>
+            <form action="#">
+                <label for="name">اسمك:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="dish">اختر الطبق:</label>
+                <select id="dish" name="dish">
+                    <option value="dish1">هريسة</option>
+                    <option value="dish2">صفوف</option>
+                    <option value="dish1">رز بحليب</option>
+                 <option value="dish1">تيرامسو</option>
+                    <option value="dish1">كريب </option>
+                    <option value="dish1">بان كيك </option>
+                 <option value="dish1"> سينامون</option>
+                    <!-- أضف المزيد من الأطباق هنا -->
+                </select>
+
+                <label for="quantity">الكمية:</label>
+                <input type="number" id="quantity" name="quantity" required>
+
+                <label for="address">عنوان التوصيل:</label>
+                <textarea id="address" name="address" required></textarea>
+
+                <button type="submit">إرسال الطلب</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- تذييل الصفحة -->
+    <footer id="contact">
+        <div class="container">
+            <p>للتواصل معنا:76/360011</p>
+            <p>موقعنا: حرف سياد,الضنية</p>
+        </div>
+    </footer>
+
+</body>
+</html>
